@@ -1,8 +1,8 @@
 <?php
-$servername ="localhost:3307";
-$username="root";
-$password="root";
-$database="makemybill";
+$servername ="148.66.138.117";
+$username="myuser";
+$password="localpass";
+$database="my_db";
 
 $conn = mysqli_connect($servername,$username,$password,$database);
 if(!$conn)
