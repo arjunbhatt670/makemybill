@@ -1,0 +1,9 @@
+body{
+    font-family: Ubuntu;
+    background: linear-gradient(to top, #00080f 0%, #000000 100%);
+    color:white;
+}
+div{
+    font-family: Ubuntu;
+    color:white;
+}

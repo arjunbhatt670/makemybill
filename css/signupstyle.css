@@ -1,0 +1,57 @@
+body{
+    font-family: tahoma,geneva,sans-serif;
+    background: url('../img/bg3.jpg') no-repeat center center/cover;
+    background-size: cover;
+    color: #fff;
+
+}
+
+.signup{
+    
+    background: rgba(44, 62,80,0.7);
+    padding: 40px;
+    width: 300px;
+    height: 570px;
+   margin:auto;
+   margin-top: 90px;
+   border-radius: 5px;
+}
+form{
+    width: 240px;
+    text-align: center;
+}
+input{
+    height: 23px;
+    width: 250px;
+    border-radius: 5px;
+    margin-left:20px;
+}
+input[type=button]{
+    border: none;
+    background:black;
+    color: rgb(226, 213, 213);
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    line-height: 25px;
+}
+input[type=button]:hover{
+    color: #fff;
+    background-color: rgb(75, 4, 4);
+
+}
+select{
+    height: 23px;
+    width: 250px;
+    border-radius: 5px;
+    margin-left:20px;
+    
+}
+a{
+    color: yellow;
+    text-decoration: blink;
+    
+}
+a:hover{
+    color: skyblue;
+}

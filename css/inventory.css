@@ -1,0 +1,98 @@
+
+.form-container{
+    font-family: Ubuntu;
+    padding-right: 15px;
+    position: relative;
+    background-color: #00244d;
+    margin-top: 3vw;
+
+}
+.form-container .title{
+    color: #333;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 50px 15px 20px;
+    margin: 0;
+    display: inline-block;
+    clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    font-family: Ubuntu;
+}
+.form-container .title i{
+    margin-right: 10px;
+}
+.form-container .form-horizontal{
+    background: rgb(255, 255, 255);
+    padding: 30px 0 0;
+    box-shadow: 10px 10px 10px rgb(0,0,0,0.1);
+}
+.form-horizontal .form-group{
+    padding: 0 25px;
+    margin: 0 0 20px;
+}
+.form-horizontal .form-group:last-of-type{ margin-bottom: 5%; }
+.form-horizontal .form-group label{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.form-horizontal .form-control{
+    color: #111;
+    background: #F5F5F5;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    height: 33px;
+    padding: 6px 12px;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    border-top: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    font-family: Ubuntu;
+}
+.form-horizontal .form-control:focus{
+    background-color: rgba(216, 63, 88, 0.1);
+    box-shadow: none;
+}
+ 
+.form-horizontal .signup{
+    color: #fff;
+    background-color:#00244d;;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 0;
+    display: block;
+    transition: all 0.3s ease 0s;
+    font-family: Ubuntu;
+}
+.form-horizontal .signup:hover,
+.form-horizontal .signup:focus{
+    background-color:#00244d;;
+}
+
+.info{
+    padding-top: 5vw;
+    padding-left: 20vw;
+    padding-bottom: 5vw;
+    box-shadow: 5px 8px 5px 5px  black;
+    background-color: #00244d;
+    font-family: Ubuntu;
+}
+
+h3{
+    text-align: center;
+    color:rgb(0, 5, 48);
+    font-family: Ubuntu;
+}
+body{
+    background:rgb(209, 209, 209);
+    font-family: Ubuntu;
+}
+

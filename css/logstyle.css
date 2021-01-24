@@ -1,0 +1,116 @@
+body{
+    font-family: Ubuntu;
+    color: #fff;
+    background-size: cover;
+    background: url('../img/bg3.jpg') no-repeat center center/cover;
+}
+.signin{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 80px;
+    height: 350px;
+    border-radius: 5px;
+    font-family: Ubuntu;
+}
+form{
+    width: 240px;
+    text-align: center;
+    font-family: Ubuntu;
+
+}
+input{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+
+input[type=submit]{
+    border: none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: Ubuntu;
+}
+input[type=submit]:hover{
+    color: #fff;
+    background-color: rgb(0, 41, 44);
+    font-family: Ubuntu;
+
+}
+h2{
+    color: white;
+    font-family: Ubuntu;
+
+}
+a{
+    color: yellow;
+    text-decoration: blink;
+    
+}
+a:hover{
+    color: skyblue;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+    font-family: Ubuntu;
+}
+::placeholder{
+    color: aliceblue;
+    opacity: 0.8;
+    font-family: Ubuntu;
+}
+.signup{
+    
+    background: rgba(44, 62,80,0.7);
+    padding: 40px;
+    width: 250px;
+    height: 650px;
+   margin:auto;
+   margin-top: 90px;
+   border-radius: 5px;
+   font-family: Ubuntu;
+}
+select{
+    width: 240px;
+    text-align: center;
+    background-color: rgba(44, 62,80,0.7);
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 65px;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+.error{
+    color: yellow;
+    font-size: 12px;
+    font-family: Ubuntu;
+}
+
+.help-block{
+    text-align: center;
+    color: yellow;
+    font-family: Ubuntu;
+}
