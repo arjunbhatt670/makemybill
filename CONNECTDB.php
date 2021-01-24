@@ -9,7 +9,7 @@
     if (!$conn) {
 //        die("Connection failed: " . mysqli_connect_error());
         echo $conn->error;
-        exit;
+//         exit;
     }
     //include 'db_connection.php';
     ?>
