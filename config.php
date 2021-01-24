@@ -7,6 +7,8 @@ define('DB_NAME', 'my_db');
 $mysqli = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 if($mysqli === false){
-    die("ERROR: Could not connect. " . $mysqli->connect_error);
+ echo $conn->error;
+ exit;
+//     die("ERROR: Could not connect. " . $mysqli->connect_error);
 }
 ?>
