@@ -93,7 +93,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body>
    <div class="signin">
        <form action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-           <h2 style="color: white;">Log in user</h2>
+           <h2 style="color: white;">Log in</h2>
            <input type="text" name="email" placeholder="Email" value="<?php echo $_SESSION["email"]?>">
            <span class="help-block"><?php echo $email_err; ?></span>
            <br><br>
