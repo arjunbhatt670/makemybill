@@ -1,8 +1,8 @@
 <?php
-define('DB_SERVER', 'localhost:3307');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'root');
-define('DB_NAME', 'makemybill');
+define('DB_SERVER', '148.66.138.117');
+define('DB_USERNAME', 'myuser');
+define('DB_PASSWORD', 'localpass');
+define('DB_NAME', 'my_db');
  
 $mysqli = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
